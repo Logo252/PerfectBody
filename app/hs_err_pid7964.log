@@ -1,0 +1,151 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=7964, tid=5808
+#
+# JRE version:  (8.0_60-b27) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.60-b23 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000024ee800):  JavaThread "Unknown thread" [_thread_in_vm, id=5808, stack(0x0000000002390000,0x0000000002490000)]
+
+Stack: [0x0000000002390000,0x0000000002490000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000024ee800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=5808, stack(0x0000000002390000,0x0000000002490000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 18944K, used 327K [0x00000000eab00000, 0x00000000ec000000, 0x0000000100000000)
+  eden space 16384K, 2% used [0x00000000eab00000,0x00000000eab51ec8,0x00000000ebb00000)
+  from space 2560K, 0% used [0x00000000ebd80000,0x00000000ebd80000,0x00000000ec000000)
+  to   space 2560K, 0% used [0x00000000ebb00000,0x00000000ebb00000,0x00000000ebd80000)
+ ParOldGen       total 44032K, used 0K [0x00000000c0000000, 0x00000000c2b00000, 0x00000000eab00000)
+  object space 44032K, 0% used [0x00000000c0000000,0x00000000c0000000,0x00000000c2b00000)
+ Metaspace       used 767K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 75K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x00000000119b0000,0x0000000011bc0000] byte_map_base: 0x00000000113b0000
+
+Marking Bits: (ParMarkBitMap*) 0x0000000057f8a5b0
+ Begin Bits: [0x0000000012520000, 0x0000000013520000)
+ End Bits:   [0x0000000013520000, 0x0000000014520000)
+
+Polling page: 0x0000000002310000
+
+CodeCache: size=245760Kb used=327Kb max_used=327Kb free=245432Kb
+ bounds [0x00000000025f0000, 0x0000000002860000, 0x00000000115f0000]
+ total_blobs=56 nmethods=0 adapters=37
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.034 loading class java/lang/Short
+Event: 0.034 loading class java/lang/Short done
+Event: 0.034 loading class java/lang/Integer
+Event: 0.034 loading class java/lang/Integer done
+Event: 0.034 loading class java/lang/Long
+Event: 0.034 loading class java/lang/Long done
+Event: 0.035 loading class java/lang/NullPointerException
+Event: 0.035 loading class java/lang/NullPointerException done
+Event: 0.035 loading class java/lang/ArithmeticException
+Event: 0.035 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x00007ff79b2b0000 - 0x00007ff79b2e7000 	C:\Program Files\Java\jdk1.8.0_60\bin\java.exe
+0x00007ffcb5f80000 - 0x00007ffcb6141000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffcb3d60000 - 0x00007ffcb3e0d000 	C:\WINDOWS\system32\KERNEL32.DLL
+0x00007ffcb3250000 - 0x00007ffcb342d000 	C:\WINDOWS\system32\KERNELBASE.dll
+0x00007ffcb4140000 - 0x00007ffcb41e6000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x00007ffcb4880000 - 0x00007ffcb491d000 	C:\WINDOWS\system32\msvcrt.dll
+0x00007ffcb3e10000 - 0x00007ffcb3e6b000 	C:\WINDOWS\system32\sechost.dll
+0x00007ffcb3ac0000 - 0x00007ffcb3be6000 	C:\WINDOWS\system32\RPCRT4.dll
+0x00007ffcb3bf0000 - 0x00007ffcb3d3e000 	C:\WINDOWS\system32\USER32.dll
+0x00007ffcb3650000 - 0x00007ffcb37d6000 	C:\WINDOWS\system32\GDI32.dll
+0x00007ffcae730000 - 0x00007ffcae9a4000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10240.16384_none_f41f7b285750ef43\COMCTL32.dll
+0x00007ffcb37f0000 - 0x00007ffcb3826000 	C:\WINDOWS\system32\IMM32.DLL
+0x00007ffcb43c0000 - 0x00007ffcb451c000 	C:\WINDOWS\system32\MSCTF.dll
+0x0000000057300000 - 0x00000000573d2000 	C:\Program Files\Java\jdk1.8.0_60\jre\bin\msvcr100.dll
+0x0000000057780000 - 0x0000000058009000 	C:\Program Files\Java\jdk1.8.0_60\jre\bin\server\jvm.dll
+0x00007ffcb37e0000 - 0x00007ffcb37e8000 	C:\WINDOWS\system32\PSAPI.DLL
+0x00007ffca7800000 - 0x00007ffca7809000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffcb0cf0000 - 0x00007ffcb0d13000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffcaf5d0000 - 0x00007ffcaf5da000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffcb3890000 - 0x00007ffcb38f9000 	C:\WINDOWS\system32\WS2_32.dll
+0x00007ffcb5f70000 - 0x00007ffcb5f78000 	C:\WINDOWS\system32\NSI.dll
+0x0000000002360000 - 0x000000000238c000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ffcb3430000 - 0x00007ffcb3474000 	C:\WINDOWS\system32\cfgmgr32.dll
+0x00007ffcb1320000 - 0x00007ffcb1347000 	C:\WINDOWS\SYSTEM32\DEVOBJ.dll
+0x0000000057770000 - 0x000000005777f000 	C:\Program Files\Java\jdk1.8.0_60\jre\bin\verify.dll
+0x0000000057740000 - 0x0000000057769000 	C:\Program Files\Java\jdk1.8.0_60\jre\bin\java.dll
+0x0000000057720000 - 0x0000000057736000 	C:\Program Files\Java\jdk1.8.0_60\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Xmx1024M -Dfile.encoding=windows-1257 -Duser.country=US -Duser.language=en -Duser.variant 
+java_command: com.android.dx.command.Main --dex --output C:\Users\M\AndroidStudioProjects\NiceProject\app\build\intermediates\dex\debug C:\Users\M\AndroidStudioProjects\NiceProject\app\build\intermediates\classes\debug C:\Users\M\AndroidStudioProjects\NiceProject\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-04d4f3fa47b4e4147cfda3041406191344e6ed8b.jar C:\Users\M\AndroidStudioProjects\NiceProject\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-a91ee61e7b0c34f050677688e1beab598ad67ee8.jar C:\Users\M\AndroidStudioProjects\NiceProject\app\build\intermediates\pre-dexed\debug\classes-08107f7e0db0c7c1cff77a4412c58ee1ca3123ed.jar C:\Users\M\AndroidStudioProjects\NiceProject\app\build\intermediates\pre-dexed\debug\classes-1d3ae5ef2d7e6f02dc2da2c1fd83383e02f4dcdb.jar C:\Users\M\AndroidStudioProjects\NiceProject\app\build\intermediates\pre-dexed\debug\classes-b9793afb2e1c827e7a2c038709dd2f3c06ffdb3b.jar C:\Users\M\AndroidStudioProjects\NiceProject\app\build\intermediates\pre-dexed\debug\classes-bb4454e9fbe53a063672d3a8502c27cafc1cf407.jar
+java_class_path (initial): C:\Users\M\AppData\Local\Android\android-sdk\build-tools\22.0.1\lib\dx.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_60\
+PATH=G:\CUDA\TOOLKIT\bin;G:\CUDA\TOOLKIT\libnvvp;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\; C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Paragon Software\Paragon ExtFS for Windows;C:\Program Files\MicMac64bits\bin;C:\Program Files\MicMac64bits\bin;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\Program Files (x86)\CMake 2.8\bin;C:\Users\M\AppData\Roaming\npm;C:\Users\M\AppData\Local\Android\android-sdk\tools;C:\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\bin;C:\eclipse\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib;C:\Users\M\AppData\Local\Android\android-sdk\platform-tools;C:\Program Files (x86)\GtkSharp\2.12\bin;c:\ant\bin\;C:\Program Files\Java\jdk1.8.0_60\bin;
+USERNAME=M
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 30 Stepping 5, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 10240 (10.0.10240.16384)
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 30 stepping 5, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 4183420k(559000k free), swap 5272172k(5792k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.60-b23) for windows-amd64 JRE (1.8.0_60-b27), built on Aug  4 2015 11:06:27 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Fri Oct 23 10:21:34 2015
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

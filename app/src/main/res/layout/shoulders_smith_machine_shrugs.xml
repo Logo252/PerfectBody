@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="info.androidhive.materialtabs.fragments.ProfileFragment"
+        android:id="@+id/myAbout">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Smith Machine Shrugs"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#253977"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="1. To begin, set the bar height on the smith machine around the middle of your thighs. Once the correct height is chosen and the bar is loaded, grab the bar using a pronated grip (palms facing you) shoulder width apart from each other."
+            android:id="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="200dp"
+            android:layout_below="@+id/textView3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="2. Lift the barbell up and fully extend your arms with your back straight. This is the starting position."
+            android:id="@+id/textView5"
+            android:layout_below="@+id/textView12"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="3. While exhaling, elevate the bar by raising your shoulders until they come close to touching your ears."
+            android:id="@+id/textView13"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="4. Hold the contraction for a second before lowering the bar back down to the starting position while inhaling."
+            android:id="@+id/textView16"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/imageView1"
+            android:src="@drawable/shoulders_smith_machine_shrugs1"
+            android:layout_below="@+id/textView3"
+            android:layout_alignEnd="@+id/textView52"
+            android:layout_marginTop="33dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="5. Repeat for the recommended amount of repetitions."
+            android:id="@+id/textView17"
+            android:layout_below="@+id/textView16"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Variations: This exercise can be performed using a squat rack with a barbell. However, be careful not to select a weight that is so heavy that it causes you to break good form as you do not have the support of the smith machine for this variation. Too much weight can harm your back."
+            android:id="@+id/textView18"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView17"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="You can also use dumbbells to perform this exercise. "
+            android:id="@+id/textView52"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView18"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

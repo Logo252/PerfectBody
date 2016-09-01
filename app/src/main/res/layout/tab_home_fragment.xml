@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.androidhive.materialtabs.fragments.OneFragment"
+    android:id="@+id/homeFragment"
+    android:tag="HOME">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MyChronometer"
+        android:id="@+id/chronometerButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MyCalculator"
+        android:id="@+id/calculateButton"
+        android:layout_above="@+id/chronometerButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="@string/linkBornFitness"
+        android:layout_above="@+id/calculateButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="215dp"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        android:linksClickable="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="@string/linkGirlsGoneStrong"
+        android:layout_above="@+id/calculateButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="185dp"
+        android:textSize="15sp"
+        android:linksClickable="true"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="@string/linkNerdFitness"
+        android:layout_above="@+id/calculateButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        android:linksClickable="true"
+        android:id="@+id/textView19"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="@string/linkYogaDork"
+        android:layout_above="@+id/calculateButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        android:linksClickable="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="@string/linkRomanFitnessSystems"
+        android:layout_above="@+id/calculateButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        android:linksClickable="true"
+        android:id="@+id/textView15"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="@string/linkFitBits"
+        android:linksClickable="true"
+        android:id="@+id/textView14"
+        android:layout_above="@+id/calculateButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/fitnessLinks"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textColor="#27516a"
+        android:textSize="40sp"
+        android:layout_alignEnd="@+id/chronometerButton"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="-80dp"
+        />
+
+
+
+</RelativeLayout>

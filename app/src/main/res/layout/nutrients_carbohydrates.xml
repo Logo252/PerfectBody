@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="info.androidhive.materialtabs.fragments.ProfileFragment"
+        android:id="@+id/myAbout">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Are Carbohydrates Anabolic?"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#253977"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="What Does Anabolic Mean?"
+            android:id="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="200dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentEnd="false"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Anabolic refers to the metabolic process that is characterized by molecular growth, such as the increase of muscle mass. Thus, it means &quot;muscle-building&quot; in most common bodybuilding contexts. "
+            android:id="@+id/textView5"
+            android:layout_below="@+id/textView12"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Briefly, some signal for growth (hormones, nutrients, etc.) causes an increase in the rate at which new proteins are synthesized within the cell. When this process occurs on a large scale over time in skeletal muscle, it is referred to as skeletal muscle hypertrophy (growth)."
+            android:id="@+id/textView13"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Hypertrophy Vs. Hyperplasia"
+            android:id="@+id/textView16"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/imageView1"
+            android:src="@drawable/nutrients_carbohydrates"
+            android:layout_marginTop="37dp"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Hypertrophy refers to an increase in muscle size, due to the enlargement of the size of the cells, as opposed to an increase in the number of cells (by cell division, a.k.a. Hyperplasia). Hypertrophy is most commonly seen in muscle that has been actively stimulated, the most well-known method being exercise. Therefore, in order for carbohydrates to be defined as anabolic, there must be conclusive evidence that carbohydrate ingestion increases skeletal muscle protein synthesis."
+            android:id="@+id/textView17"
+            android:layout_below="@+id/textView16"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Insulin&apos;s Role"
+            android:id="@+id/textView18"
+            android:layout_below="@+id/textView17"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="A common thread in bodybuilding thought is that carbohydrates are anabolic because they increase insulin secretion, and insulin is anabolic. There are countless articles written on how insulin increases protein synthesis and decreases protein degradation, making it one of the most anabolic hormones in the body."
+            android:id="@+id/textView19"
+            android:layout_below="@+id/textView18"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="The main growing years for humans are from 0-18 years old, approximately. So when we are young, we are very sensitive to growth hormones such as insulin. Indeed, the research supports this as there are numerous studies showing insulin to increase protein synthesis and inhibit protein breakdown in young subjects at physiological (normal) concentrations.1-4"
+            android:id="@+id/textView21"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView19"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

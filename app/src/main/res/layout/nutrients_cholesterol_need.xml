@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="info.androidhive.materialtabs.fragments.ProfileFragment"
+        android:id="@+id/myAbout">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="What You Need To Know About Cholesterol!"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#253977"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="What Is Cholesterol?"
+            android:id="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="200dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentEnd="false"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Cholesterol is sort of a &quot;cousin&quot; of fat. Both fat and cholesterol belong to a larger family of chemical compounds called lipids. All the cholesterol the body needs is made by the liver. It is used to build cell membranes and brain and nerve tissues. Cholesterol also helps the body produce steroid hormones needed for body regulation, including processing food, and bile acids needed for digestion. "
+            android:id="@+id/textView5"
+            android:layout_below="@+id/textView12"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="People don&apos;t need to consume dietary cholesterol because the body can make enough cholesterol for its needs. But the typical U.S. diet contains substantial amounts of cholesterol, found in foods such as egg yolks, liver, meat, some shellfish, and whole-milk dairy products. Only foods of animal origin contain cholesterol. "
+            android:id="@+id/textView13"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="A person&apos;s cholesterol &quot;number&quot; refers to the total amount of cholesterol in the blood. Cholesterol is measured in milligrams per deciliter (mg/dl) of blood. (A deciliter is a tenth of a liter.) Doctors recommend that total blood cholesterol be kept below 200 mg/dl. The average level in adults in this country is 205 to 215 mg/dl. Studies in the United States and other countries have consistently shown that total cholesterol levels above 200 to 220 mg/dl are linked with an increased risk of coronary heart disease. "
+            android:id="@+id/textView16"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/imageView1"
+            android:src="@drawable/nutritents_cholesterol_need"
+            android:layout_marginTop="37dp"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="How To Lower Your Cholesterol"
+            android:id="@+id/textView17"
+            android:layout_below="@+id/textView16"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="First, beginning a regular exercise program is one of the smartest things you can do. Do at least thirty minutes of some aerobic activity every day, if you can. "
+            android:id="@+id/textView18"
+            android:layout_below="@+id/textView17"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="As for food, you might feel like you'll never have the list of do's and don'ts memorized. That's okay. Just remember the basics. Avoid a lot of saturated fat and sugar, and gradually increase your fiber intake (I say gradually because an abrupt increase in fiber could make you sick)."
+            android:id="@+id/textView19"
+            android:layout_below="@+id/textView18"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

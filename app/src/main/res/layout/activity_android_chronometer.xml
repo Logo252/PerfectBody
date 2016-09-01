@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+
+    <Button
+        android:id="@+id/btnPause"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:text="@string/pauseTimer"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:text="@string/startTimer"
+        android:layout_below="@+id/textTimer"
+        android:layout_toStartOf="@+id/textTimer"
+        android:layout_marginRight="-100dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:text="@string/resetTimer"
+        android:layout_alignTop="@+id/btnPause"
+        android:layout_toEndOf="@+id/textTimer"
+        android:id="@+id/btnReset"
+        android:layout_marginLeft="-100dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="80sp"
+        android:textColor="#4f4343"
+        android:text="@string/textTimer"
+        android:layout_above="@+id/btnPause"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/chronometerTItle"
+        android:id="@+id/titleTimer"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#4a1111" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imageView1"
+        android:src="@drawable/chronometer"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="48dp" />
+
+</RelativeLayout>

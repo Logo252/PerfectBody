@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="info.androidhive.materialtabs.fragments.ProfileFragment"
+        android:id="@+id/myAbout">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Manipulating Your Hormones"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#253977"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Manipulating your hormones will help take advantage and ensure successful adaption, training, health and performance."
+            android:id="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="200dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentEnd="false"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Virtually everything you do in life triggers a hormonal response in the body. Hormonal levels control our body&apos;s actions. It is very important to understand the key role hormones play in inducing muscular growth as well as muscular breakdown. "
+            android:id="@+id/textView5"
+            android:layout_below="@+id/textView12"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Hormones are chemical messengers that are secreted by the endocrine system. Once they are in the blood they travel to specific receptor sites on cells. Tissue adaptions are partly dependent on hormonal levels. It is important that the athlete has a basic understanding of these powerful messengers. Manipulating these hormones to your advantage ensures successful adaption, training, health and performance. "
+            android:id="@+id/textView13"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Receptors"
+            android:id="@+id/textView16"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/imageView1"
+            android:src="@drawable/nutritents_hormones"
+            android:layout_marginTop="37dp"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="The lock-and-key theory states that a specific hormone interacts with a specific receptor site. The hormone acts like a key while the receptor site is like a lock. Once the key opens the lock, a message is sent to the cell to perform a specific action. The genetic material in the nucleus of the cell either translates the message to mean protein synthesis or protein breakdown. Once an adaption ceiling is reached, the cell becomes down regulated (non-responsive) to the hormone. Down regulation of the receptor inhibits alteration in cell metabolism. "
+            android:id="@+id/textView17"
+            android:layout_below="@+id/textView16"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Heavy Resistance Exercise"
+            android:id="@+id/textView18"
+            android:layout_below="@+id/textView17"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Heavy resistance exercise stimulates significant adaptions in trained muscles such as increased strength, size and power. Resistance training causes endocrine glands to secrete hormones. These hormones provide an excess of information to the body. These hormones elicit different responses. The pattern and duration of exercise greatly influence the type of hormone secreted. "
+            android:id="@+id/textView19"
+            android:layout_below="@+id/textView18"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Hormones In Blood"
+            android:id="@+id/textView20"
+            android:layout_below="@+id/textView19"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Blood levels are sometimes used to test for the secretion of hormones. This can be a complex task because the hormonal levels are ever changing in the bloodstream. It should be noted that just because a hormone is present in the bloodstream does not mean that it will successfully reach the receptor site. Although, the higher concentrations of the hormones in the blood the greater possibility for the hormone to bind to the receptor. The ideal situation for anabolism is to have a higher number of anabolic hormones in the blood than catabolic hormones. This usually leads to positive cellular adaptions. "
+            android:id="@+id/textView21"
+            android:layout_below="@+id/textView20"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

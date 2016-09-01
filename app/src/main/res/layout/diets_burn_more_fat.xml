@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="info.androidhive.materialtabs.fragments.ProfileFragment"
+        android:id="@+id/myAbout">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="3 Simple Changes To Burn More Fat Today"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#253977"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Too often, people treat fat loss like an emergency; they panic and make impulsive decisions rather than thinking clearly and strategically. The result is disappointment, frustration, and—worst of all—having to start from scratch the next time around!"
+            android:id="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="200dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentEnd="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Training Discover Cardio Acceleration"
+            android:id="@+id/textView5"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Right now, you probably have a weight-training session and a cardio session. Sure, that burns calories, but it also requires a lot of time and work. If fat loss is your goal, you don&apos;t need to do separate strength and cardio sessions. Combine the two to achieve big results!"
+            android:id="@+id/textView13"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/imageView1"
+            android:src="@drawable/diets_burn_more_fat"
+            android:layout_marginTop="37dp"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="This is what is known in training circles as &quot;cardio acceleration.&quot; Cardio acceleration saves time by alternating high-intensity cardio and strength training in one all-inclusive workout. Yeah, it&apos;s nice to chill out and catch your breath between sets of strength training, but you want to burn fat, right?  Maximize your workout by adding 1-2 minutes of high-intensity cardio between each straight set and superset, or between transitions from one exercise to another."
+            android:id="@+id/textView17"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView13"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Nutrition Cycle Carbs Around Training Days"
+            android:id="@+id/textView18"
+            android:layout_below="@+id/textView17"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="That bachelorette party in Vegas is coming up fast! Your first instinct may be to slash your calories, but that is so wrong. Of course it&apos;s not healthy, but it&apos;s not effective, either!  Meanwhile, you feel hungry all day, grow irritable, become grouchy, and your sleep is crappy. Your low energy makes your workouts suffer. There&apos;s a better way!"
+            android:id="@+id/textView19"
+            android:layout_below="@+id/textView18"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="The cycling strategy alternates high- and low-carb days. This stimulates the body&apos;s production of the fat-burning hormone leptin. It is also incredibly mentally rewarding! It gives you a higher-carb day to look forward to, which helps you stick with your plan. That&apos;s a win, right? You can enjoy eating carbs fairly regularly and still lose weight.  Introduce your high-carb days on the days you perform your hardest workout sessions. For many people, this will mean a leg or back day. Adjust your plan according to your goals and lifting schedule."
+            android:id="@+id/textView21"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView19"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Supplements Hit Your Protein Goals First"
+            android:id="@+id/textView22"
+            android:layout_below="@+id/textView21"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="If you&apos;re cutting carbs several days a week, you&apos;ll need more protein on those days to keep your calories from getting too low. Sounds like a perfect time for a shake to me!  Additionally, any time you make fat loss your goal, you risk losing plenty of fat-burning muscle tissue along with the soft stuff. A healthy protein intake and supplemental BCAAs can both help you hold on to lean mass, while the BCAAs can also help with recovery between your high-intensity workouts."
+            android:id="@+id/textView23"
+            android:layout_below="@+id/textView22"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="When someone wants to lose fat, particularly by an ambitious deadline, the first supplement that usually comes to mind is a fat burner. While this can definitely help, it&apos;s a tool that should only be used in conjunction with tried-and-true fitness staples like protein or branched-chain amino acids—not in place of them.  Cover those crucial nutritional bases, and you&apos;ll give your fat burner—and your workouts— a better chance of working for you."
+            android:id="@+id/textView24"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView23"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="info.androidhive.materialtabs.fragments.ProfileFragment"
+        android:id="@+id/myAbout">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="The Truth About Diets: Dieting For Maintenance!"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#253977"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="So for those who play sports or have goals of muscle gain, having the proper diet is important as well. Many people don&apos;t change what they eat or drink at all when it comes to sports performance or gaining muscle, they simply think that because they are not trying to lose weight, all they need is a supplement to attain their goals. This is simply not true, a supplement is exactly what the name implies; it&apos;s a tool that strengthens, completes, or makes up for a deficiency in your diet. It is not an automatic means to an end."
+            android:id="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="200dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentEnd="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="The Atkins Diet"
+            android:id="@+id/textView5"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Quite possibly the most popular weight loss craze in recent memory is that of the Atkins Diet (low carb) and the reason for this is because it works. Individuals could achieve faster results on the low carb diet as opposed to a calorie restricted diet.2"
+            android:id="@+id/textView13"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/imageView1"
+            android:src="@drawable/diets_truth_about_diets"
+            android:layout_marginTop="37dp"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="The reason for this is the effect of insulin; carbohydrates (and to a lesser extent, protein and essential amino acids) cause the pancreas to release insulin which shuts down the release of fatty acids (your body metabolizes fat at rest) and pulls nutrients from the blood to be utilized or stored. This process is highly anabolic and very useful for athletes attempting to refill their energy stores (muscle glycogen is the storage form of carbohydrates in the body and it is utilized during intense exercise) and transport vital nutrients to muscle cells. "
+            android:id="@+id/textView17"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView13"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Dieting For Weight Maintenance"
+            android:id="@+id/textView18"
+            android:layout_below="@+id/textView17"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Now when it comes to dieting for weight maintenance, the base of your approach should once again be the total calories you consume in a day. However, as I stated in my article on bulking while limiting fat; insulin still plays a role in weight control. If it didn&apos;t, Sumo wrestlers wouldn&apos;t limit their eating to twice a day to promote insulin spikes (they also limit their number of meal sessions per day to slow metabolic rate). And also, if insulin didn&apos;t play a role in weight control, the atkins/low carb diet wouldn&apos;t be as effective as it is. "
+            android:id="@+id/textView19"
+            android:layout_below="@+id/textView18"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="Conclusion"
+            android:id="@+id/textView20"
+            android:layout_below="@+id/textView19"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="So despite the latest diet trends that come and go, modern science tells us that the best things for weight control are: optimizing your metabolism through regular exercise, balancing your meals for proper insulin control, and keeping an eye on the total number of calories you consume for the day. And when it comes to the meal delivery services that are so heavily advertised, those can definitely help if you have the extra money to spend and have a hard time with planning your diet. But for those of us who can&apos;t afford it, these meal plans are based on what every nutritionist prescribes to their clients the first day they walk into the office...portion control. This is the reason for the 6 meal a day recommendation that is recommended for so many people just getting started. Compliance is a huge issue in the personal training and nutrition planning industry, and the first thing you will be taught just starting out is to start controlling the portions of your meals and start paying attention to serving sizes. This should help get you on your way and on the track to weight control success."
+            android:id="@+id/textView21"
+            android:layout_below="@+id/textView20"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

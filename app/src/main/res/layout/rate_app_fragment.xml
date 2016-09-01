@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/lblRateMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/myRateMe"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#253977"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="90dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:rating="2.0"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/lblRateMe"
+        android:layout_alignEnd="@+id/lblRateMe"
+        android:layout_marginRight="-25dp"
+        android:layout_marginTop="160dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mySubmitButton"
+        android:textSize="20sp"
+        android:layout_above="@+id/txtRatingValue"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/txtRatingValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textIsSelectable="true"
+        android:layout_gravity="center_horizontal"
+        android:textSize="100sp"
+        android:text="2.0"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/btnSubmit"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/myResultAfterRate"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textIsSelectable="true"
+        android:textSize="45sp"
+        android:layout_alignBottom="@+id/txtRatingValue"
+        android:layout_toStartOf="@+id/txtRatingValue"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/imageView1"
+        android:src="@drawable/body_launcher"
+        android:layout_below="@+id/view"
+        android:layout_alignEnd="@+id/lblRateMe" />
+
+</RelativeLayout>

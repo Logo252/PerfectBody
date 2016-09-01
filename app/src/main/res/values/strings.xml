@@ -1,0 +1,283 @@
+<resources>
+    <string name="app_name">Perfect Body</string>
+    <string name="chronometer_name">Chronometer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="slash">/</string>
+    <string name="myProfile">MY PROFILE</string>
+    <string name="myGender">Gender:</string>
+    <string name="myBirthDate">Birth date</string>
+    <string name="myHeight">Height:</string>
+    <string name="myWeight">Weight:</string>
+    <string name="myMale">Male</string>
+    <string name="myFemale">Female</string>
+    <string name="mySettings">SETTINGS</string>
+    <string name="myFitnessTab">Fitness</string>
+    <string name="myNutritionTab">Nutrition</string>
+    <string name="myOnOff">On</string>
+    <string name="myLanguage">Language</string>
+    <string name="myWifiText">Wifi</string>
+    <string name="myHomeItem">Home</string>
+    <string name="myProfileItem">My profile</string>
+    <string name="myRateAppItem">Rate app</string>
+    <string name="myAboutItem">About</string>
+    <string name="WifiOn">Wi-fi on</string>
+    <string name="WifiOff">Wi-fi off</string>
+    <string name="WifiOffs">Wi-fi off</string>
+    <string name="WifiOns">Wi-fi on</string>
+    <string name="myWifi">Wi-fi</string>
+    <string name="selectdate">Select Date</string>
+    <string name="myRateMe">RATE APP</string>
+    <string name="mySubmitButton">Click to submit your rate</string>
+    <string name="myResultAfterRate">Rate:</string>
+    <string name="MyKaciokas">Kaciokas</string>
+    <string name="myWifiSettings">Wi-Fi Settings</string>
+    <string name="ArnasAbout">ABOUT</string>
+    <string name="aboutFitness">Variety of articles on how to be in shape</string>
+    <string name="aboutBodybuilding"><![CDATA[Bodybuilding Exercises & workouts with explanation]]></string>
+    <string name="aboutNutrition">Nutrition Articles on healthy food</string>
+    <string name="myChronometer">Chronometer</string>
+    <string name="FitnessText">Fitness</string>
+    <string name="BodybuildingText">Bodybuilding</string>
+    <string name="NutritionText">Nutrition</string>
+    <string name="my_search">search</string>
+    <string name="MyChronometer">Chronometer</string>
+    <string name="MyCalculator">Body Mass Index Calculator</string>
+    <string name="calculateText">Calculate</string>
+    <string name="yourHeight">Your Height (CM) :</string>
+    <string name="yourWeight">Your Weight (KG) :</string>
+    <string name="dash">-</string>
+    <string name="birthDate">Click to change your birth date</string>
+
+
+    <string name="startTimer">Start</string>
+    <string name="textTimer">00:00:00</string>
+    <string name="pauseTimer">Pause</string>
+    <string name="resetTimer">Reset</string>
+    <string name="chronometerTItle">Chronometer</string>
+
+    <string name="search_label">Search</string>
+    <string name="search_hint">Search exercises</string>
+
+    <string name="hintSearch">Enter something</string>
+    <string name="searchLabel">ko nori</string>
+    <string name="searchHint">search</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+
+
+    <string name="fitnessLinks">FITNESS LINKS</string>
+    <string name="linkBornFitness">Born Fitness - <a href="http://www.bornfitness.com">http://www.bornfitness.com</a></string>
+    <string name="linkGirlsGoneStrong">Girls Gone Strong - <a href="http://www.girlsgonestrong.com">http://www.girlsgonestrong.com</a></string>
+    <string name="linkNerdFitness">Nerd Fitness - <a href="http://www.nerdfitness.com">http://www.nerdfitness.com</a></string>
+    <string name="linkYogaDork">Yoga Dork - <a href="http://www.yogadork.com">http://www.yogadork.com</a></string>
+    <string name="linkRomanFitnessSystems">RFS - <a href="http://www.romanfitnesssystems.com">http://www.romanfitnesssystems.com</a></string>
+    <string name="linkFitBits">FitBits - <a href="http://www.thefitbits.com/">http://www.thefitbits.com/</a></string>
+    <string name="abdominalAbRoller">Ab Roller</string>
+    <string name="abRollerText1">1. Hold the Ab Roller with both hands and kneel on the floor.</string>
+    <string name="abRollerText2">2. Now place the ab roller on the floor in front of you so that you are on all your hands and knees (as in a kneeling push up position). This will be your starting position.</string>
+    <string name="abRollerText3">3. Slowly roll the ab roller straight forward, stretching your body into a straight position. Tip: Go down as far as you can without touching the floor with your body. Breathe in during this portion of the movement.</string>
+    <string name="abRollerText4">4. After a pause at the stretched position, start pulling yourself back to the starting position as you breathe out. Tip: Go slowly and keep your abs tight at all times.</string>
+    <string name="abRollerText5">Caution: This exercise is not advised for people with lower back problems or hernias.</string>
+    <string name="abRollerText6">Variations: If you are advanced you can perform the exercise moving the ab roller to the sides in a diagonal fashion as opposed to straight forward. This version places more emphasis on the obliques.</string>
+    <string name="bicepsBarbellCurl6">Variations: You can also perform this movement using a straight bar attachment hooked to a low pulley. This variation seems to really provide a good contraction at the top of the movement. You may also use the closer grip for variety purposes.</string>
+    <string name="bicepsBarbellCurl5">5. Repeat for the recommended amount of repetitions.</string>
+    <string name="my_cm">CM</string>
+    <string name="my_kg">KG</string>
+    <string name="ToolBarTitle">Perfect Body</string>
+
+
+    <string-array name="EXERCISES">
+        <item>ABDOMINAL</item>
+        <item>BACK</item>
+        <item>BICEPS</item>
+        <item>CHEST</item>
+        <item>LEGS</item>
+        <item>SHOULDERS</item>
+        <item>TRICEPS</item>
+    </string-array>
+
+
+    <string-array name="ABDOMINAL">
+        <item>AB ROLLER</item>
+        <item>BICYCLE CRUNCHES</item>
+        <item>BOTTOMS UP STANDING</item>
+        <item>CHRUNCHES</item>
+        <item>TOE TOUCHER CRUNCHES</item>
+        <item>PLANK</item>
+        <item>V-UP ABS</item>
+        <item>BENT KNEE HIP RAISE</item>
+        <item>CABLE TWISTS</item>
+        <item>DECLINE OBLIQUE CRUNCHES</item>
+        <item>CABLE SEATED CRUNCHES</item>
+    </string-array>
+
+    <string-array name="BACK">
+        <item>DEAD LIFT</item>
+        <item>HYPER EXTENSION</item>
+        <item>PULL UPS</item>
+        <item>CLOSE GRIP PULL DOWN</item>
+        <item>PULL DOWN BEHIND NECK</item>
+        <item>SEATED CABLE ROWING</item>
+    </string-array>
+
+    <string-array name="BICEPS">
+        <item>ALTERNATE DUMBBELL CURL</item>
+        <item>BARBELL CURL</item>
+        <item>CABLE BICEPS CURL</item>
+        <item>CLOSE GRIP BARBELL CURL</item>
+        <item>CONCENTRATION CURL</item>
+        <item>CROSS BODY HAMMER CURL</item>
+        <item>HAMMER CURLS</item>
+        <item>INCLINE HAMMER CURL</item>
+        <item>OVER HEAD CABLE CURLS</item>
+        <item>HIGH CABLE CURLS</item>
+    </string-array>
+
+    <string-array name="CHEST">
+        <item>BUTTERFLY</item>
+        <item>DECLINE BENCH BARBELL PRESS</item>
+        <item>DECLINE BENCH DUMBBELL PRESS</item>
+        <item>PLAIN BENCH DUMBBELL PRESS</item>
+        <item>DUMBBELL PULL OVER</item>
+        <item>INCLINE BENCH BARBELL PRESS</item>
+        <item>INCLINE BENCH DUMBBELL FLIES</item>
+        <item>PLAIN BENCH BARBELL PRESS</item>
+        <item>SINGLE ARM PUSH UPS</item>
+        <item>DECLINE BARBELL PULL OVER</item>
+        <item>DECLINE PUSH UPS</item>
+    </string-array>
+
+    <string-array name="LEGS">
+        <item>WIDE STANCE BARBELL SQUAT</item>
+        <item>BARBELL WALKING</item>
+        <item>DONKEY CALF RAISE</item>
+        <item>DUMBBELL REAR WALKING</item>
+        <item>JOGGING</item>
+        <item>LEG EXTENSION</item>
+        <item>LEG PRESS</item>
+        <item>SMITH MACINE SQUAT</item>
+        <item>SMITH MACINE CALF RAISE</item>
+        <item>SIDE LEG RAISE</item>
+    </string-array>
+
+    <string-array name="SHOULDERS">
+        <item>ALTERNATE DELTOID RAISE</item>
+        <item>BARBELL SHOULDER PRESS</item>
+        <item>DUMBBELL SHOULDER PRESS</item>
+        <item>SHRUGS</item>
+        <item>SINGLE HAND DUMBBELL FRONT RAISE</item>
+        <item>SMITH MACHINE SHRUGS</item>
+        <item>STANDING ALTERNATE DUMBBELL PRESS</item>
+        <item>SMITH MACHINE BACK SHRUGS</item>
+    </string-array>
+
+    <string-array name="TRICEPS">
+        <item>BENCH DIPS</item>
+        <item>CABLE OVERHEAD TRICEPS EXTENSION</item>
+        <item>CLOSE GRIP EZ BAR BENCH PRESS</item>
+        <item>DUMBBELL ONE ARM TRICEPS EXTENSION</item>
+        <item>LYING TRICEPS EXTENSIONS</item>
+        <item>ROPE TRICEPS PUSH DOWN</item>
+        <item>SEATED DUMBBELL TRICEPS PRESS</item>
+        <item>DECLINE EZ BAR TRICEPS EXTENSION</item>
+        <item>STANDING TRICEPS KICK BACK</item>
+        <item>CLOSE GRIP DUMBBELL PRESS</item>
+        <item>CLOSE GRIP DUMBBELL PUSH UPS</item>
+        <item>TRICEPS DIPS</item>
+        <item>STANDING BARBELL TRICEPS EXTENSION</item>
+    </string-array>
+
+
+    <string-array name="NUTRITION">
+        <item>DIETS</item>
+        <item>FOOD</item>
+        <item>ESSENTIAL NUTRIENTS</item>
+    </string-array>
+
+
+    <string-array name="DIETS">
+        <item>THE 5 HEALTHIEST SUMMER FRUITS</item>
+        <item>3 SIMPLE CHANGES TO BURN MORE FAT TODAY</item>
+        <item>9 HEALTHY WAYS TO LOSE WEIGHT</item>
+        <item>THE TRUTH ABOUT DIETS: DIETING FOR MAINTENANCE</item>
+    </string-array>
+
+    <string-array name="FOOD">
+        <item>TOP 10 REASONS TO DRINK WATER</item>
+        <item>8 HEALTHY SNACKS TO KILL YOUR CRAVINGS</item>
+        <item>5 DAIRY PROTEINS YOU HAVE NEVER TRIED</item>
+        <item>WATER IN OUR BODY</item>
+    </string-array>
+
+    <string-array name="ESSENTIAL_NUTRIENTS">
+        <item>8 HIGH-PROTEIN VEGETABLES</item>
+        <item>MANIPULATING YOUR HORMONES</item>
+        <item>WHAT YOU NEED TO KNOW ABOUT CHOLESTEROL</item>
+        <item>ARE CARBOHYDRATES ANABOLIC?</item>
+    </string-array>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="birthDateText">Birth date:</string>
+
+
+</resources>
